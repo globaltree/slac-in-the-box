@@ -19,4 +19,18 @@ As the second oldest extant programming language, Common Lisp has also stood the
 
 Therefore, the reason why Lisp is still around after 60 years, is because programmers like it!  I like it.  I find it to be the programming langauge with the least eco-political attachments, and the perfect langauge in which to develop humanitarian software.
 
-This is where I share Common Lisp that Slacks!
+This is where I share Common Lisp that Slacks!  
+
+Whenever I upgrade slackware, I like to also upgrade all the third party packages available from https://www.slackbuilds.org.  With the help of the sbopkg and sqg tools from https://sbopkg.org, sbomg.lisp (short for sbo manage, or for slack builds oh my god, which ever you prefer) builds my lists of 3rd party packages available from slackbuilds.  
+
+The following prerequisites have to be met for sbomg.lisp to work
+
+A common lisp environment nees to be configured to use quicklisp, a tool for managing available common lisp systems.  To do so, download https://beta.quicklisp.org/quicklisp.lisp , then at cli (on slackware system of course), type clisp, and at the prompt enter (load "quicklisp.lisp") and it will prompt you for how you want to configure quicklisp--I just choose all the defaults, which creates a folder in my home folder called quicklisp, and loads the quicklisp system by default when I start clisp.
+
+Sbopkg from https/sbopkg.org is also a needed prerequisite.  And, because sbomg.lisp runs slackpkg clean-system between builds of the various 3rd-party packages from slackbuilds, sbopkg must be added to /etc/slackpkg/blacklist so slackpkg clean-system doesn't remove it while sbomg.lisp is running.
+
+Once quicklisp is configured, and once sbopkg is installed and added to the slackpkg blacklist, from the directory where you save sbomg.lisp excute clisp, and at the prompt enter (load "sbomg.lisp") and watch it build your third party packages.  Oh, you probably will want to edit sbomg.lisp and add the third party packages you want to build:  sbomg.lisp is divided into two sections, packages without dependencies, and packages with dependencies.  Manually add packages that don't have dependencies to the first list, and packages that do to the second.
+
+Please fork and make improvements, as this is my first common-lisp project beyond hello-world, that actually does something useful (I used to spend too much time running slackbuild scripts manually).  If you like sbomg.lisp and want to donate to someone, donate to ponce, because there's no way this would work without sbopkg, or donate to pat, as there is no way this would work without slackware.
+
+Beware of the pecking disorder.
