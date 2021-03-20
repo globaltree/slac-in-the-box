@@ -1,4 +1,4 @@
-### Hi there 👋
+### Howdy Globe 👋
 
 <!--
 **slac-in-the-box/slac-in-the-box** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,10 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-Howdy Globe:  
-
-Here's the situation:  there are too many programming languages -- please stop making them and learn Common Lisp:)  Why are there so many programming languages?  Greedy Money Grubbing Glory:  each new programming language serves some faction's economic and political agenda.  It has something to do with millions of young programmers, with fresh degrees in computer science, but without wisdom or guidance, following each other -- and they keep making new programming languages just to feel powerful, but without actually advancing computer science.    
+Here's the situation:  there are too many programming languages -- please stop making them and learn Common Lisp! Why are there so many programming languages?  Greedy Money Grubbing Glory:  each new programming language serves some faction's economic and political agenda.  It has something to do with millions of young programmers, with fresh degrees in computer science, but without wisdom or guidance, following each other -- and they keep making new programming languages just to feel powerful, but without actually advancing computer science.    
 
 I'm a slacker -- that is, a user of Slackware Linux, a distribution that has stood the test of time.  It has been said, that when one learns slackware one learns linux.  It is also said that slackware is for advanced users; however, IMHO, due to its clear documentation that actually works when one follows it to the tee, Slackware is just as much for users who want to advance in their understanding of gnu linux.  
 
