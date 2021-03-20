@@ -31,6 +31,6 @@ Sbopkg from https/sbopkg.org is also a needed prerequisite.  And, because sbomg.
 
 Once quicklisp is configured, and once sbopkg is installed and added to the slackpkg blacklist, from the directory where you save sbomg.lisp excute clisp, and at the prompt enter (load "sbomg.lisp") and watch it build your third party packages.  Oh, you probably will want to edit sbomg.lisp and add the third party packages you want to build:  sbomg.lisp is divided into two sections, packages without dependencies, and packages with dependencies.  Manually add packages that don't have dependencies to the first list, and packages that do to the second.
 
-Please fork and make improvements, as this is my first common-lisp project beyond hello-world, that actually does something useful:  I used to spend a lot of time running slackbuild scripts manually.  If you like this and want to donate to someone, donate to ponce, because there's no way this would work without sbopkg, or donate to Pat, as there is no way this would work without slackware.
+Please fork and make improvements, as this is my first common-lisp project beyond hello-world, that actually does something useful (I used to spend too much time running slackbuild scripts manually).  If you like sbomg.lisp and want to donate to someone, donate to ponce, because there's no way this would work without sbopkg, or donate to pat, as there is no way this would work without slackware.
 
-Cheers.
+Beware of the pecking disorder.
