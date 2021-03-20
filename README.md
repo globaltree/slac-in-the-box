@@ -34,3 +34,4 @@ Once quicklisp is configured, and once sbopkg is installed and added to the slac
 Please fork and make improvements, as this is my first common-lisp project beyond hello-world, that actually does something useful (I used to spend too much time running slackbuild scripts manually).  If you like sbomg.lisp and want to donate to someone, donate to ponce, because there's no way this would work without sbopkg, or donate to pat, as there is no way this would work without slackware.
 
 Beware of the pecking disorder.
+-- slac.in.the.box
