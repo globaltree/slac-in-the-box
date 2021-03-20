@@ -1,10 +1,7 @@
-### Howdy Globe 👋
-
+### Howdy Globe:  This repository is where I share Common Lisp that Slacks! 👋
 <!--
 **slac-in-the-box/slac-in-the-box** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -22,4 +19,4 @@ As the second oldest extant programming language, Common Lisp has also stood the
 
 Therefore, the reason why Lisp is still around after 60 years, is because programmers like it!  I like it.  I find it to be the programming langauge with the least eco-political attachments, and the perfect langauge in which to develop humanitarian software.
 
-This slac-in-the box repository is where I share Common Lisp that Slacks!
+This is where I share Common Lisp that Slacks!
