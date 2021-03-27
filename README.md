@@ -11,20 +11,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-My first common lisp applicaton to share is called sbomg.lisp (sbo manager).  Whenever I upgrade slackware, I like to also upgrade all the third party packages available from https://www.slackbuilds.org.  sbomg.lisp does this and is a huge timesaver.  
+With computer science, the latest is not always the greatest.  Many good projects fail, for whatever reason.  I used to use corporate products, like Apple's OS X, and Macromedia's Dreamweaver, Fireworks, Flash, and Freehand.  Once Apple swicthed to x86 and x86_64 processors, it dropped support for its powerpc line of products, and abandoned all the users that had given them money for powerpc devices.  That's why I abandoned Apple.  Similarly, once Adobe purchased Macromedia, they dropped support for those products in favor of their Go-Live.  I felt like I had wasted my time reading the Macromedia manuals, and didn't know that Adobe woudl later bring dreamweaver back, so that's when I abandoned proprietary softare, and have been studying FOSS since.
 
-The following prerequisites have to be met for sbomg.lisp to work
+After experiencing high volatility with "the latest and greatest", I began look for free open-source software solutions that have withstood the test of time and that would run on the most generic of hardware.  
 
-Default Slackware ships with clisp, so I'm just using that.
+The solution that has served me well:  programming in Common Lisp, the second oldest extant programming language, installed on the oldest distribution of the gnu linux operating system:  Slackware Linux.  
 
-However, clisp has to be configured for quicklisp, common lisp's package manager for popular common lisp systems.  To do so, download https://beta.quicklisp.org/quicklisp.lisp , then at cli (on a slackware system of course), type clisp, and at the lisp prompt enter (load "quicklisp.lisp") and it will prompt you for how you want to configure quicklisp--I just choose all the defaults, which creates a folder in my home folder called quicklisp, and which loads the quicklisp system by default when I start clisp.  
-
-Sbopkg from https://sbopkg.org is also a needed prerequisite.  And, because sbomg.lisp runs "slackpkg clean-system" between builds of the various 3rd-party packages from slackbuilds, sbopkg must be added to /etc/slackpkg/blacklist so clean-system doesn't remove it while sbomg.lisp is running.
-
-Sbopkg comes with a bash script, Slackbuild Queue Generator, installed to /usr/sbin/sqg, which by default, skips creating queue files for packages that do not have any dependencies.  This behavior needs to be changed by editing sqg, and uncommenting the line:  SKIP_EMPTY=${SKIP_EMPTY:-NO}, because sbomg.lisp feeds the list of sbo packages to sqg and then processes the resultant queue files, and so needs queue files for single packages too. 
-
-Once quicklisp is configured, once sbopkg is installed and added to the slackpkg blacklist, and once sqg has been modified to not skip empty queues, then, the system is prepared to build packages with sbomg.lisp.   At the cli in the directory where you saved sbomg.lisp excute clisp, and then at the lisp prompt enter (load "sbomg.lisp")--type the parentheses too of course--and watch it build your third party packages!  Oh, you probably will want to edit sbomg.lisp and add the third party packages you want to build.
-
-Please fork and make improvements, as this is my first common-lisp project beyond hello-world, and I'm sure it could be improved.
+README-COMMON-LISP describes more reasons behind my choice of Common Lisp as my primary language for software development.  
+README-SLACKWARE describe more reasons for choosing slackware.  
+README.SBOMG contains the instructions for building 3rd party softare from slackbuilds.org using sbomg.lisp. 
 
 -- slac.in.the.box
