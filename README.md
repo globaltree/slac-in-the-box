@@ -11,18 +11,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Here's the situation:  there are too many programming languages -- please stop making them and learn Common Lisp! Why are there so many programming languages?  Greedy money grubbing glory:  each new programming language serves some faction's economic and political agenda.  It has something to do with millions of young programmers, with fresh degrees in computer science, but without wisdom or guidance, following each other -- and they keep making new programming languages just to feel powerful, but without actually advancing computer science.    
-
-I'm a slacker -- that is, a user of Slackware Linux, a distribution that has stood the test of time.  It has been said, that when one learns slackware one learns linux.  It is also said that slackware is for advanced users; however, IMHO, due to its clear documentation that actually works when one follows it to the tee, Slackware is just as much for users who want to advance in their understanding of gnu linux.  
-
-As the second oldest extant programming language, Common Lisp has also stood the test of time.  Instead of syntax created at the arbitrary whim of young programmers, John McCarthy noticed that Lambda Calculus already provided a syntax suitable to recursive iteration and hence the perfect syntax for a programming language.  Computer science was advanced when he created the first lisp language, published in 1960 in his paper, "Recurse Functions in Symbolic Expression and their Computation by Machine (Part I)".  Furthermore, the natural symbols of lambda calculus and common lisp are the same symbols used in arithmetic and algebra.  Controlling order of operations with parentheses is taught to children and thus feels natural, especially with a color coded indenting editor like emacs.  
-
-Common Lisp is not popular with all those eco-political factions:  searching for it at google's summer of code dosn't yield any sponsors; nor does common lisp turn up too many jobs when typed into the tech job search engines.  Why hasn't common lisp died like so many others?  
-
-### The reason why Lisp is still around after 60 years, is because programmers like it!  I like it.  Hacking in the REPL is a fun way to program.  
-
-This slac-in-the-box git repository is where I share Common Lisp that Slacks!  
-
 My first common lisp applicaton to share is called sbomg.lisp (sbo manager).  Whenever I upgrade slackware, I like to also upgrade all the third party packages available from https://www.slackbuilds.org.  sbomg.lisp does this and is a huge timesaver.  
 
 The following prerequisites have to be met for sbomg.lisp to work
