@@ -8,4 +8,4 @@ The symbols used in common lisp are the same symbols used in arithmetic and alge
 
 Nevertheless, Common Lisp is not popular with all those language-making eco-political factions: searching for it at google's summer of code dosn't yield any sponsors; nor does common lisp turn up too many jobs when typed into the tech job search engines. So why hasn't common lisp died like so many others?
 
-**The reason why Lisp is still around after 60 years, is because programmers like it! I like it. Hacking in the REPL is a fun way to program. I like common lisp so much, that I teach it to children. I'm not the only one. Common Lisp is the ancient programming language of the future.
+**The reason why Lisp is still around after 60 years, is because programmers like it! I like it. Hacking in the REPL is a fun way to program. I like common lisp so much, that I teach it to children. I'm not the only one. Common Lisp is the ancient programming language of the future.**
