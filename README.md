@@ -11,8 +11,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-With computer science, the latest is not always the greatest.  Many good projects fail, for whatever reason.  I used to use corporate products, like Apple's OS X, and Macromedia's Dreamweaver, Fireworks, Flash, and Freehand.  Once Apple swicthed to x86 and x86_64 processors, it dropped support for its powerpc line of products, and abandoned all the users that had given them money for powerpc devices.  That's why I abandoned Apple.  Similarly, once Adobe purchased Macromedia, they dropped support for those products in favor of their Go-Live.  I felt like I had wasted my time reading the Macromedia manuals, and didn't know that Adobe woudl later bring dreamweaver back, so that's when I abandoned proprietary softare, and have been studying FOSS since.
-
 After experiencing high volatility with "the latest and greatest", I began look for free open-source software solutions that have withstood the test of time and that would run on the most generic of hardware.  
 
 The solution that has served me well:  programming in Common Lisp, the second oldest extant programming language, installed on the oldest distribution of the gnu linux operating system:  Slackware Linux.  
